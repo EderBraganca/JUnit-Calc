@@ -1,7 +1,7 @@
-#Calc
+###Calc
 A simple calculator for apply junit concepts.
 
-#Used tecnologies
+###Used tecnologies
  - Java
  - Spring
  - JUnit5
