@@ -1,7 +1,6 @@
 package com.calc.calc.interfaces;
 
 import com.calc.calc.application.CalculatorUseCase;
-import com.calc.calc.domain.Calculator;
 import com.calc.calc.domain.Operation;
 
 public class CalculatorController {

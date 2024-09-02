@@ -14,11 +14,5 @@ public class CalcApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CalcApplication.class, args);
 		Calculator calculator = new SimpleCalculator();
-		CalculatorUseCase calculatorUseCase = new CalculatorUseCase(calculator);
-		CalculatorController controller = new CalculatorController(calculatorUseCase);
-
-		Operation addition = Double::sum;
-
-		controller.calculate(5, 3, addition);
 	}
 }

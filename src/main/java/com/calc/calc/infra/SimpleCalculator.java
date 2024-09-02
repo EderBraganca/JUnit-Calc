@@ -12,8 +12,4 @@ public class SimpleCalculator implements Calculator {
     public double calculate(double a, double b, Operation op){
         return op.apply(a,b);
     }
-
-    double add(double a, double b) {
-        return a + b;
-    }
 }
